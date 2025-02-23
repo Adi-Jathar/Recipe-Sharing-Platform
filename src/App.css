@@ -1,0 +1,352 @@
+/* All Recipes Section Container */
+.all-recipes {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Heading */
+.all-recipes h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Recipe List as a Vertical List */
+.recipe-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Individual Recipe Card Styling */
+.recipe-card {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
+
+/* Recipe Image Styling */
+.recipe-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Recipe Title Styling (Centered) */
+.recipe-card h3 {
+  margin: 10px;
+  font-size: 1.5rem;
+  color: #222;
+  text-align: center;
+}
+
+/* Recipe Text Styling */
+.recipe-card p {
+  margin: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Recipe Actions (Buttons) */
+.recipe-actions {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.recipe-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: #3498db;
+  color: #fff;
+  transition: background 0.3s ease;
+}
+
+.recipe-actions button:hover {
+  background-color: #2980b9;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.site-title {
+  background-color: #f39c12; /* You can change this color as needed */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center; /* Optional: centers the text if not already done */
+  color: #fff; /* Optional: changes text color for contrast */
+}
+
+/* Add Recipe Page Styling */
+.add-recipe {
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.add-recipe h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Style the form with vertical stacking and spacing */
+.add-recipe form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-recipe form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Style the submit button */
+.add-recipe form button {
+  padding: 12px;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-recipe form button:hover {
+  background-color: #2980b9;
+}
+
+/* =====================
+   Login Page Styling
+   ===================== */
+   .login-page {
+    max-width: 400px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .login-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Form Layout */
+  .login-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .login-page form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .login-page form button {
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-page form button:hover {
+    background-color: #2980b9;
+  }
+
+  /* =====================
+   Register Page Styling
+   ===================== */
+.register-page {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.register-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.register-page form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.register-page form button {
+  padding: 12px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-page form button:hover {
+  background-color: #2980b9;
+}
+
+.recipe-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.recipe-actions button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+/* Style for Like/Unlike button */
+.recipe-actions button:nth-child(1) {
+  background-color: #3498db;
+  color: #fff;
+}
+.recipe-actions button:nth-child(1):hover {
+  background-color: #2980b9;
+}
+
+/* Style for Delete button */
+.recipe-actions button:nth-child(2) {
+  background-color: #e74c3c;
+  color: #fff;
+}
+.recipe-actions button:nth-child(2):hover {
+  background-color: #c0392b;
+}
+
+/* Favourites Page Container */
+.favourites {
+  max-width: 600px;      /* Make the section a bit narrower */
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.favourites h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Recipe List */
+.recipe-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Recipe Card */
+.recipe-card {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.recipe-card h3 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+.recipe-card p {
+  font-size: 0.9rem;
+  margin: 5px 0;
+  word-wrap: break-word;
+}
+
+/* Recipe Actions (Buttons) */
+.recipe-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.recipe-actions button {
+  padding: 6px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Remove Button Styling */
+.remove-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.remove-btn:hover {
+  background-color: #c0392b;
+}
